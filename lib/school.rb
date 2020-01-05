@@ -1,7 +1,7 @@
 class School
+  attr_accessor :name, :roster
   
   def initialize(name)
-    attr_accessor :name, :roster
     
     @name = name
     @roster = {}
